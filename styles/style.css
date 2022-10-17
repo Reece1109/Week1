@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    background-color: #b6b7b9;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 300px;
+    list-style:none;
+}
+.menu-list li a {
+    padding:20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-list li {
+    margin-left: auto
+}
+
+.menu-list  li a:hover {
+    color:#00a9a9
+}
+
+img {
+    width:21em;
+    height: 6em;
+    padding-top: 5px;
+
+}
